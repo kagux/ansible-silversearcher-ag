@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  author: "Boris Mikhaylov"
+  description: 'the silver searcher (ag) installation'
+  platforms: 
+    - ubuntu
+  categories: 
+    - system
+dependencies: []

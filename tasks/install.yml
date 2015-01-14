@@ -1,0 +1,15 @@
+- name: pull sources from github
+  git: >
+    repo={{silversearcher-ag.repo}}
+    dest={{silversearcher-ag.sources_path}}
+    update=yes
+
+
+- name: compile and install
+  shell: {{item}}
+  args:
+    chdir: {{silversearcher-ag.sources_path}}
+  sudo: yes
+  with_items:
+    - "build.sh"
+    - "make install"
