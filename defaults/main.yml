@@ -1,2 +1,2 @@
-silversearcher-ag.repo: https://github.com/ggreer/the_silver_searcher
-silversearcher-ag.sources_path: /tmp/ag
+silversearcher_ag.repo: https://github.com/ggreer/the_silver_searcher
+silversearcher_ag.sources_path: /tmp/ag
