@@ -6,7 +6,7 @@
 
 
 - name: compile and install
-  shell: {{item}}
+  shell: "{{item}}"
   args:
     chdir: {{silversearcher_ag.sources_path}}
   sudo: yes
