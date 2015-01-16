@@ -11,5 +11,5 @@
     chdir: "{{silversearcher_ag_sources_path}}"
   sudo: yes
   with_items:
-    - "build.sh"
+    - "./build.sh"
     - "make install"
