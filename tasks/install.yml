@@ -9,7 +9,7 @@
   shell: "{{item}}"
   args:
     chdir: "{{silversearcher_ag_sources_path}}"
-  sudo: yes
+  become: yes
   with_items:
     - "./build.sh"
     - "make install"

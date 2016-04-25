@@ -1,6 +1,6 @@
 - name: install packages
   apt: name={{item}} state=present
-  sudo: yes
+  become: yes
   with_items:
      - git
      - automake
