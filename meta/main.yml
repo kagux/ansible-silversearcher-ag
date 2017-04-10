@@ -1,9 +1,17 @@
 ---
 galaxy_info:
-  author: "Boris Mikhaylov"
-  description: 'the silver searcher (ag) installation'
-  platforms: 
-    - ubuntu
-  categories: 
+  author: Boris Mikhaylov
+  description: the silver searcher (ag) installation
+  platforms:
+    - name: Ubuntu
+      versions:
+        - raring
+        - saucy
+        - trusty
+        - utopic
+        - vivid
+        - wily
+        - xenial
+  galaxy_tags:
     - system
 dependencies: []
