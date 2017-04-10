@@ -2,6 +2,7 @@
 galaxy_info:
   author: Boris Mikhaylov
   description: the silver searcher (ag) installation
+  license: MIT
   platforms:
     - name: Ubuntu
       versions:
